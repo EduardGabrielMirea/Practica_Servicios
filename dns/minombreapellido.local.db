@@ -1,0 +1,13 @@
+$TTL 684808
+
+@ IN SOA ns.minombreapellido.local. admin.minombreapellido.local. (
+    20241211001 ; serial
+    68400 ; Refresh
+    86400 ; Retry
+    2419200 ; Expire
+    684808 ) ; Minimum TTL
+
+@ IN NS ns.minombreapellido.local.
+ns IN A 127.0.0.1
+practicaservicios IN A 127.0.0.1
+ldap IN CNAME practicaservicios.minombreapellido.local.

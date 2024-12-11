@@ -1,0 +1,4 @@
+zone "minombreapellido.local" {
+    type master;
+    file "/etc/bind/zones/minombreapellido.local.db";
+};

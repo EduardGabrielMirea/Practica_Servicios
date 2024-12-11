@@ -1,0 +1,17 @@
+dn: ou=usuariosweb,dc=minombreapellido,dc=local
+objectClass: organizationalUnit
+ou: usuariosweb
+
+dn: uid=minombreapellido,ou=usuariosweb,dc=minombreapellido,dc=local
+objectClass: inetOrgPerson
+cn: minombreapellido
+sn: minombreapellido
+uid: minombreapellido
+userPassword: minombreapellido
+
+dn: uid=AlanTuring,ou=usuariosweb,dc=minombreapellido,dc=local
+objectClass: inetOrgPerson
+cn: Alan Turing
+sn: Turing
+uid: AlanTuring
+userPassword: AlanTuring
