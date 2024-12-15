@@ -1,0 +1,13 @@
+$TTL 1d
+$ORIGIN eduardmirea.local. ; base domain-name
+@   IN  SOA     practicaservicios.eduardmirea.local. admin.eduardmirea.local. (
+                  2023112301  ; Serial
+                  8H          ; Refresh
+                  2H          ; Retry
+                  4W          ; Expire
+                  1D )        ; Minimum TTL
+; Name Servers
+eduardmirea.local.    IN  NS      practicaservicios.eduardmirea.local.
+; A records
+practicaservicios.eduardmirea.local. IN  A       127.0.0.1
+ldap.eduardmirea.local. IN  CNAME       practicaservicios.eduardmirea.local.

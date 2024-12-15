@@ -1,0 +1,17 @@
+dn: ou=usuariosweb,dc=eduardmirea,dc=local
+objectClass: organizationalUnit
+ou: usuariosweb
+
+dn: uid=eduardmirea,ou=usuariosweb,dc=eduardmirea,dc=local
+objectClass: inetOrgPerson
+cn: Eduard Mirea
+sn: Mirea
+uid: eduardmirea
+userPassword: eduardmirea
+
+dn: uid=AlanTuring,ou=usuariosweb,dc=eduardmirea,dc=local
+objectClass: inetOrgPerson
+cn: Alan Turing
+sn: Turing
+uid: AlanTuring
+userPassword: AlanTuring

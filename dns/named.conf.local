@@ -1,4 +1,9 @@
-zone "minombreapellido.local" {
+zone "eduardmirea.local" {
     type master;
-    file "/etc/bind/zones/minombreapellido.local.db";
+    file "/etc/bind/db.eduardmirea.local";
+};
+
+zone "0.0.127.in-addr.arpa" {
+    type master;
+    file "/etc/bind/db.127";
 };

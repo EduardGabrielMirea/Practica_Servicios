@@ -1,10 +1,6 @@
-FROM debian:latest
+FROM internetsystemsconsortium/bind9:9.18
 
-RUN apt-get update && apt-get install -y bind9 bind9utils
-
-COPY named.conf.local /etc/bind/
-COPY minombreapellido.local.db /etc/bind/zones/
-
-EXPOSE 53/udp
-
-CMD [ "named", "-g" ]
+COPY named.conf /etc/bind/named.conf
+COPY named.conf.local /etc/bind/named.conf.local
+COPY named.conf.options /etc/bind/named.conf.options
+COPY db.eduardmirea.local /etc/bind/db.eduardmirea.local
